@@ -1,5 +1,5 @@
-Spring Bach Demo 
-================
+Spring Batch Demo 
+=================
 
 This repository is a simple example of using the Spring Batch framework to read data, process that data, and then record the results.  Specifically, this code will connect to the payment processing service [Stripe](https://stripe.com) to retrieve a list of customers; examine the credit card information stored for that customer and determine if the card is about to expire; send an email to the customer if the card is about to expire; and finally, log to the console the number of customers that 
 were notified in each chunk.
