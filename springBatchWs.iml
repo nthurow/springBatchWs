@@ -5,6 +5,9 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/spring-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ExpiredPaymentBatchApp-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ExpiredPaymentBatchApp-context.xml</file>
+          <file>file://$MODULE_DIR$/src/test/resources/ExpiredPaymentItemProcessorTest-context.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -16,12 +19,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring-4.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Spring Batch-2.2.6" level="project" />
+    <orderEntry type="library" name="groovy-2.4.5" level="application" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-batch:1.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.2.7.RELEASE" level="project" />
@@ -52,5 +57,11 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.hsqldb:hsqldb:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: com.stripe:stripe-java:1.37.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.2" level="project" />
   </component>
 </module>
